@@ -1,26 +1,26 @@
-# 兰星个人学术主页
+# Xing Lan Academic Homepage
 
-这是一个可直接部署到 GitHub Pages 的静态个人学术主页，入口文件是 `index.html`。
+This is a static academic homepage that can be deployed directly with GitHub Pages. The entry file is `index.html`.
 
-## 本地预览
+## Local Preview
 
-直接用浏览器打开 `index.html` 即可预览。也可以在仓库目录运行：
+Open `index.html` directly in a browser, or run the following command in the repository root:
 
 ```bash
 python3 -m http.server 8000
 ```
 
-然后访问 `http://localhost:8000`。
+Then visit `http://localhost:8000`.
 
-## 部署到 GitHub Pages
+## Deploy to GitHub Pages
 
-1. 在 GitHub 创建仓库，推荐命名为 `你的用户名.github.io`。
-2. 将本目录内容提交并推送到该仓库的 `main` 分支。
-3. 如果仓库不是 `你的用户名.github.io`，进入 GitHub 仓库的 `Settings -> Pages`，选择 `Deploy from a branch`，分支选择 `main`，目录选择 `/root`。
-4. 等待 GitHub Pages 构建完成后访问页面地址。
+1. Create a GitHub repository. For a user homepage, name it `your-username.github.io`.
+2. Commit and push this directory to the repository's `main` branch.
+3. If the repository is not named `your-username.github.io`, open `Settings -> Pages`, select `Deploy from a branch`, choose the `main` branch, and set the folder to `/root`.
+4. Wait for GitHub Pages to finish building, then open the published URL.
 
-## 更新内容
+## Update Content
 
-- 头像：替换 `assets/profile.png`。
-- 个人信息、论文和招生信息：编辑 `index.html`。
-- 页面样式：编辑 `styles.css`。
+- Portrait: replace `assets/profile.png`.
+- Bio, publications, admissions, and contact information: edit `index.html`.
+- Visual style: edit `styles.css`.
