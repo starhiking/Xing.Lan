@@ -211,6 +211,26 @@ a:hover {
   color: var(--muted);
 }
 
+.ccf {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 1px 7px;
+  color: #1554b7;
+  background: var(--accent-soft);
+  border: 1px solid #c8dcff;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1.4;
+  vertical-align: 1px;
+}
+
+.ccf-a {
+  color: #8a4b05;
+  background: #fff4df;
+  border-color: #f2d09b;
+}
+
 address {
   font-style: normal;
 }
